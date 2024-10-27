@@ -8,6 +8,7 @@ import java.util.Set;
 
 public class HappyFamilyApp {
     public static void main(String[] args) {
+
         Map<DayOfTheWeek, String> schedule = new HashMap<>();
         schedule.put(DayOfTheWeek.MONDAY, "Go to the fitness");
         schedule.put(DayOfTheWeek.TUESDAY, "Read a book");

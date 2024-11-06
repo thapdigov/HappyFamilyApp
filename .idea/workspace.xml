@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b1b6e10-4b5c-47b5-9d02-6f4239061ac5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/FamilyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/ConsoleApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/FamilyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/FamilyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HappyFamilyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HappyFamilyApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ControllerFamilyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ControllerFamilyDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/FamilyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/FamilyDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Family.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Man.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Woman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Woman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HappyFamilyApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HappyFamilyApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entity/Family.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entity/Family.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entity/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entity/Human.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entity/Man.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entity/Man.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entity/Woman.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entity/Woman.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ngOOMuv7eRL18ELu7KNkbbSRv6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="entity" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HappyFamilyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HappyFamilyApp" />
+      <module name="Happy-Family" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HappyFamilyApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b1b6e10-4b5c-47b5-9d02-6f4239061ac5" name="Changes" comment="" />
+      <created>1729391219879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729391219879</updated>
+      <workItem from="1729391221205" duration="7023000" />
+      <workItem from="1729422660986" duration="607000" />
+      <workItem from="1729438366760" duration="7000" />
+      <workItem from="1729438778865" duration="28000" />
+      <workItem from="1729475036202" duration="6474000" />
+      <workItem from="1729662453364" duration="3733000" />
+      <workItem from="1730023307830" duration="5028000" />
+      <workItem from="1730102575353" duration="8755000" />
+      <workItem from="1730265227805" duration="2084000" />
+      <workItem from="1730411041390" duration="522000" />
+      <workItem from="1730449778922" duration="2396000" />
+      <workItem from="1730527883015" duration="2152000" />
+      <workItem from="1730794359342" duration="200000" />
+      <workItem from="1730856847581" duration="82000" />
+      <workItem from="1730857153363" duration="490000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,13 +1,15 @@
 package entity;
 
 import java.time.LocalDate;
+import java.time.Period;
+import java.time.format.DateTimeFormatter;
 import java.util.Map;
 
 public class Human {
 
     private String name;
     private String surname;
-    private LocalDate year;
+    private LocalDate birthDate;
     private Integer IQ;
     private Pet pet;
     private Map<DayOfTheWeek, String> schedule;
@@ -17,25 +19,25 @@ public class Human {
     public Human() {
     }
 
-    public Human(String name, String surname, LocalDate year) {
+    public Human(String name, String surname, String birthDate) {
         this.name = name;
         this.surname = surname;
-        this.year = year;
+        this.birthDate = LocalDate.parse(birthDate, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
     }
 
 
-    public Human(String name, String surname, LocalDate year, Integer IQ, Map<DayOfTheWeek, String> schedule) {
+    public Human(String name, String surname, String birthDate, Integer IQ, Map<DayOfTheWeek, String> schedule) {
         this.name = name;
         this.surname = surname;
-        this.year = year;
+        this.birthDate = LocalDate.parse(birthDate, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
         this.IQ = IQ;
         this.schedule = schedule;
     }
 
-    public Human(String name, String surname, LocalDate year, Integer IQ) {
+    public Human(String name, String surname, String birthDate, Integer IQ) {
         this.name = name;
         this.surname = surname;
-        this.year = year;
+        this.birthDate = LocalDate.parse(birthDate, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
         this.IQ = IQ;
     }
 
@@ -55,12 +57,12 @@ public class Human {
         this.surname = surname;
     }
 
-    public LocalDate getYear() {
-        return year;
+    public LocalDate getBirthDate() {
+        return birthDate;
     }
 
-    public void setYear(LocalDate year) {
-        this.year = year;
+    public void setBirthDate(LocalDate birthDate) {
+        this.birthDate = birthDate;
     }
 
     public Integer getIQ() {
@@ -95,6 +97,11 @@ public class Human {
         this.family = family;
     }
 
+    public String describeAge() {
+        Period age = Period.between(LocalDate.now(), getBirthDate());
+        return String.format("age: %d month: %d day: %d", age.getYears(), age.getMonths(), age.getDays());
+    }
+
     @Override
     protected void finalize() throws Throwable {
         System.out.println("Human object is being remved by Garbage Collector!");
@@ -113,6 +120,6 @@ public class Human {
     @Override
     public String toString() {
         return "Human { " + "name='" + name + "', surname='" + surname +
-                "', year=" + year + ", IQ=" + IQ + ", schedule= " + schedule;
+                "', birthDate=" + birthDate + ", IQ=" + IQ + ", schedule= " + schedule;
     }
 }

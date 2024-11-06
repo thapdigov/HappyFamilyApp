@@ -1,10 +1,13 @@
 package entity;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public final class Man extends Human {
-    public Man(String name, String surname, LocalDate year, Integer IQ) {
-        super(name, surname, year, IQ);
+
+
+    public Man(String name, String surname, String birthDate, Integer IQ) {
+        super(name, surname, birthDate, IQ);
     }
 
     @Override

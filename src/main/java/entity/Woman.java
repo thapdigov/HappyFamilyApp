@@ -3,8 +3,8 @@ package entity;
 import java.time.LocalDate;
 
 public final class Woman extends Human {
-    public Woman(String name, String surname, LocalDate year, Integer IQ) {
-        super(name, surname, year, IQ);
+    public Woman(String name, String surname, String birthDate, Integer IQ) {
+        super(name, surname, birthDate, IQ);
     }
 
     @Override

@@ -3,13 +3,14 @@ package dao;
 import entity.Family;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface FamilyDao {
 
 
     void saveFamily(Family family);
 
-    Family getFamilyByIndex(int index);
+    Optional<Family>getFamilyByIndex(int index);
 
     boolean deleteFamilyByIndex(int index);
 

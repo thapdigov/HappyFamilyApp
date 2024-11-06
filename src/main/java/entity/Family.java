@@ -66,8 +66,8 @@ public class Family implements HumanCreator {
         boolean isMan = new Random().nextBoolean();
         String name = isMan ? boyNames[random.nextInt(boyNames.length)] : girlNames[random.nextInt(boyNames.length)];
         Integer childIQ = (getFather().getIQ() + getMother().getIQ()) / 2;
-        Human human = isMan ? new Man(name, getFather().getSurname(), LocalDate.now(), childIQ) :
-                new Woman(name, getFather().getSurname(), LocalDate.now(), childIQ);
+        Human human = isMan ? new Man(name, getFather().getSurname(), String.valueOf(LocalDate.now()), childIQ) :
+                new Woman(name, getFather().getSurname(), String.valueOf(LocalDate.now()), childIQ);
         human.setFamily(this);
         return human;
     }

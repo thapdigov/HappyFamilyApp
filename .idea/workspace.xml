@@ -9,6 +9,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/service/ConsoleApp.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/service/FamilyService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/service/FamilyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/target/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HappyFamilyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HappyFamilyApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/ControllerFamilyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ControllerFamilyDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/FamilyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/FamilyDao.java" afterDir="false" />
@@ -57,6 +58,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Behruz Tapdiqov\Documents\java21\Happy-Family\target" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="entity" />
     </key>
@@ -97,7 +101,7 @@
       <workItem from="1730527883015" duration="2152000" />
       <workItem from="1730794359342" duration="200000" />
       <workItem from="1730856847581" duration="82000" />
-      <workItem from="1730857153363" duration="490000" />
+      <workItem from="1730857153363" duration="886000" />
     </task>
     <servers />
   </component>

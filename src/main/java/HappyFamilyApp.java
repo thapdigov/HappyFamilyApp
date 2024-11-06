@@ -15,9 +15,9 @@ public class HappyFamilyApp {
         habits.add("eat");
         habits.add("sleep");
 
-        Human father = new Human("Emil", "Tapdigov", "14/07/1978");
-        Human mother = new Human("Samira", "Mahmudova", "05/04/1982");
-        Human child = new Human("Sanan", "Tapdigov", "22/08/2002", 80, schedule);
+        Human father = new Human("Jord", "Baydon", "14/07/1978");
+        Human mother = new Human("Mila", "Baydon", "05/04/1982");
+        Human child = new Human("Fred", "Baydon", "22/08/2002", 80, schedule);
         Pet pet = new Dog(Species.DOG, "Rex", 3, 75, habits);
         Set<Pet> pets = new HashSet<>();
         pets.add(pet);

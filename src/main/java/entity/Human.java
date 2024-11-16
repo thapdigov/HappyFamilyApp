@@ -119,7 +119,7 @@ public class Human {
 
     @Override
     public String toString() {
-        return "Human { " + "name='" + name + "', surname='" + surname +
-                "', birthDate=" + birthDate + ", IQ=" + IQ + ", schedule= " + schedule;
+        return "{ name='" + name + "', surname='" + surname +
+                "', birthDate='" + birthDate + "', IQ=" + IQ + ", schedule= " + schedule+" }";
     }
 }

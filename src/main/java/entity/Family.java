@@ -1,10 +1,7 @@
 package entity;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-import java.util.Set;
+import java.util.*;
 
 public class Family implements HumanCreator {
     private Human father;
@@ -72,6 +69,19 @@ public class Family implements HumanCreator {
         return human;
     }
 
+    public String prettyFormat() {
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("family: \n");
+        stringBuilder.append("\t\tmother: ").append(mother.toString()).append(",\n");
+        stringBuilder.append("\t\tfather: ").append(father.toString()).append(",\n\t\tchildren:\n");
+        for (Human child : children) {
+            String gender = child instanceof Man ? "boy: " : "girl: ";
+            stringBuilder.append(" \t\t\t\t").append(gender).append(child).append(",\n");
+        }
+        stringBuilder.append("\t\tpets: ").append(pets);
+        return stringBuilder.toString();
+    }
+
     public Integer getCountFamily() {
         return 2 + children.size();
     }
@@ -108,11 +118,21 @@ public class Family implements HumanCreator {
         this.pets = pets;
     }
 
+//    @Override
+//    public String toString() {
+//        return "family: {" + "\n\t\tmother: {name='%s', surname='%s'}".formatted(mother.getName(), mother.getSurname()) +
+//                "\n\t\tfather:{%s %s}".formatted(father.getName(), father.getSurname())
+//                + "\n\t\tchildren: " + children + "\n\t\tpets: " + pets;
+//    }
+
+
     @Override
     public String toString() {
-        return "Family {" + "father=%s %s".formatted(father.getName(), father.getSurname())
-                + ", mother=%s %s".formatted(mother.getName(), mother.getSurname()) + ", children=" + children + ", pets: " + pets;
+        return "Family{" +
+                "father=" + father +
+                ", mother=" + mother +
+                ", children=" + children +
+                ", pets=" + pets +
+                '}';
     }
-
-
 }

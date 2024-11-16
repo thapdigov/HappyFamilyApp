@@ -1,13 +1,16 @@
 package entity;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
+import java.util.Map;
 
 public final class Man extends Human {
 
 
     public Man(String name, String surname, String birthDate, Integer IQ) {
         super(name, surname, birthDate, IQ);
+    }
+
+    public Man(String name, String surname, String birthDate, Integer IQ, Map<DayOfTheWeek, String> schedule) {
+        super(name, surname, birthDate, IQ, schedule);
     }
 
     @Override

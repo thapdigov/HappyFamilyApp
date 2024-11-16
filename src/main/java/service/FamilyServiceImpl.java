@@ -15,13 +15,14 @@ public class FamilyServiceImpl implements FamilyService {
     }
 
     @Override
-    public List<Family> getAllFamilies() {
-        return familyDao.getAllFamilies();
+    public List<String> getAllFamilies() {
+        return familyDao.getAllFamilies().stream().map(Family::prettyFormat).collect(Collectors.toList());
     }
 
     @Override
     public void getDisplayFamilies() {
-        familyDao.getAllFamilies().forEach(System.out::println);
+        getAllFamilies().forEach(System.out::println);
+
     }
 
     @Override
@@ -61,7 +62,7 @@ public class FamilyServiceImpl implements FamilyService {
 
         boolean isMan = new Random().nextBoolean();
         String name = isMan ? maleName : femaleName;
-        Human bornChild = isMan ? new Man(name, family.getFather().getSurname(),String.valueOf(LocalDate.now()),
+        Human bornChild = isMan ? new Man(name, family.getFather().getSurname(), String.valueOf(LocalDate.now()),
                 (family.getFather().getIQ() + family.getMother().getIQ()) / 2) :
                 new Woman(name, family.getFather().getSurname(), String.valueOf(LocalDate.now()),
                         (family.getFather().getIQ() + family.getMother().getIQ()) / 2);
@@ -121,4 +122,6 @@ public class FamilyServiceImpl implements FamilyService {
         petSet.add(pet);
         familyDao.saveFamily(family);
     }
+
+
 }

@@ -10,7 +10,7 @@ import java.util.Set;
 
 public interface FamilyService {
 
-    List<Family> getAllFamilies();
+    List<String> getAllFamilies();
 
     void getDisplayFamilies();
 
@@ -37,6 +37,4 @@ public interface FamilyService {
     Optional<Set<Pet>> getAllPets(int index);
 
     void addPet(int index, Pet pet);
-
-
 }

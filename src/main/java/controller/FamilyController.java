@@ -16,7 +16,7 @@ public class FamilyController {
         this.familyService = familyService;
     }
 
-    public List<Family> getAllFamilies() {
+    public List<String> getAllFamilies() {
         return familyService.getAllFamilies();
     }
 

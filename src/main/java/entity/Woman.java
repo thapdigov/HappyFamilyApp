@@ -1,10 +1,15 @@
 package entity;
 
 import java.time.LocalDate;
+import java.util.Map;
 
 public final class Woman extends Human {
     public Woman(String name, String surname, String birthDate, Integer IQ) {
         super(name, surname, birthDate, IQ);
+    }
+
+    public Woman(String name, String surname, String birthDate, Integer IQ, Map<DayOfTheWeek, String> schedule) {
+        super(name, surname, birthDate, IQ, schedule);
     }
 
     @Override
